@@ -43,7 +43,7 @@ function cmb2_sample_metaboxes() {
 }
 ```
 
-![Address field](https://github.com/scottsawyer/cmb2-field-widget-selector/raw/master/assets/images/screenshot-demo.wp-builder.net-2018.10.08-14-36-05.png "Example Address field")
+![Address field](https://github.com/scottsawyer/cmb2-field-address/raw/master/assets/images/screenshot-demo.wp-builder.net-2018.10.08-14-36-05.png "Example Address field")
 
 To access your address:
 
