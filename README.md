@@ -35,9 +35,8 @@ function cmb2_sample_metaboxes() {
 	$cmb->add_field( array(
 		'name'       => __( 'Address Field', 'cmb2' ),
 		'desc'       => __( 'field description (optional)', 'cmb2' ),
-		'id'         => $prefix . 'text',
+		'id'         => $prefix . 'address',
 		'type'       => 'address',
-		'show_on_cb' => 'cmb2_hide_if_no_cats', // function should return a bool value
 		// 'repeatable'      => true,
 	) );
 }
