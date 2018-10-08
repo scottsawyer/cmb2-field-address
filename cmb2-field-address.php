@@ -36,7 +36,6 @@ if ( ! class_exists( 'CMB2_Field_Address' ) ) {
      * Initialize the plugin
      */
     public function __construct() {
-    	//add_filter( 'cmb2_render_class_address', [$this, 'class_name'] ) ;
       add_action( 'cmb2_render_address', [$this, 'render_address'], 10, 5 );
       add_filter( 'cmb2_sanitize_address', [$this, 'maybe_save_split_values'], 12, 4 );
       add_filter( 'cmb2_sanitize_address', [$this, 'sanitize'], 10, 5 );
